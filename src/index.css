@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --very-dark-gray: hsl(0, 0%, 17%);
+    --dark-gray: hsl(0, 0%, 59%)
+}
+
+body {
+    font-family: 'Rubik';
+    width: 1440px;
+}
+
+@media (max-width: 375px) {
+    body {
+        width: 375px;
+    }
+}
