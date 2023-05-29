@@ -1,6 +1,8 @@
-function App() {
+import IPSearch from './IPSearch/IPSearch'
+
+const App = () => {
     return (
-        <h1>App Test</h1>
+        <IPSearch />
     )
 }
 

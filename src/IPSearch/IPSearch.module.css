@@ -1,0 +1,26 @@
+.container {
+    width: 100vw;
+    height: 280px;
+    padding-top: 20px;
+    background-image: url('../images/pattern-bg-desktop.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchBox {
+    display: flex;
+    
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 375px;
+        height: 300px;
+        background-image: url('../images/pattern-bg-mobile.png');
+        background-repeat: no-repeat;
+    }
+}

@@ -8,8 +8,44 @@
 }
 
 body {
+    margin: 0;
     font-family: 'Rubik';
     width: 1440px;
+}
+
+.container {
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+input {
+    color: var(--very-dark-gray);
+    width: 35vw;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+button {
+    height: 37px;
+    width: 37px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: none;
+    background-color: var(--very-dark-gray);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--dark-gray);
 }
 
 @media (max-width: 375px) {
