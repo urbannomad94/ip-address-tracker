@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    width: 55vw;
+    height: 150px;
+    border-radius: 12px;
+    margin-top: -75px;
+    align-self: center;
+    background-color: aqua;
+}
