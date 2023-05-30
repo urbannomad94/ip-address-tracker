@@ -1,6 +1,6 @@
 import IPSearchCSS from './IPSearch.module.css'
 
-const IPSearch = () => {
+const IPSearch = ({data, setIp}) => {
   return (
     <div className={IPSearchCSS.container}>
         <h1>IP Address Tracker</h1>
@@ -16,3 +16,5 @@ const IPSearch = () => {
 }
 
 export default IPSearch
+
+

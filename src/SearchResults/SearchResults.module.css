@@ -5,5 +5,13 @@
     border-radius: 12px;
     margin-top: -75px;
     align-self: center;
-    background-color: aqua;
+    justify-content: space-between;
+    background-color: white;
 }
+
+.info {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid red;
+}
+
