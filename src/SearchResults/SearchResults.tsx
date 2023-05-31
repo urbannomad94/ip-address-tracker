@@ -1,7 +1,6 @@
 import SearchResultsCSS from './SearchResults.module.css'
 
 const SearchResults = ({data}) => {
-    console.log(data)
   return (
     <div className={SearchResultsCSS.container}>
         <div className={SearchResultsCSS.info}>
