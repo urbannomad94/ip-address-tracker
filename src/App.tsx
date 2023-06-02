@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import IPSearch from './IPSearch/IPSearch'
 import SearchResults from './SearchResults/SearchResults'
+import Map from './Map/Map'
 
 const App = () => {
     const [data, setData] = useState();
@@ -32,6 +33,7 @@ const App = () => {
         <>
             <IPSearch setIpAddress={setIpAddress} ipAddress={ipAddress} setSubmitted={setSubmitted} />
             {data ? <SearchResults data={data} /> : null}
+            <Map />
         </>
     )
 }
